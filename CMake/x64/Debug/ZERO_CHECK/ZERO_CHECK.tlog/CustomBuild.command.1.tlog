@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\CMAKE_TUTORIAL\CMAKE\CMAKEFILES\66B011E12E470020EA5680E95672EC8C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Desktop/CMake_tutorial/CMake -BC:/Users/user/Desktop/CMake_tutorial/CMake --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/user/Desktop/CMake_tutorial/CMake/MatrixApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
