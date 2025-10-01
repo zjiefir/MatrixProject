@@ -31,7 +31,7 @@
 
 1. Клонируй репозиторий:
    ```
-   git clone https://github.com/yourusername/MatrixProject.git
+   git clone https://github.com/zjiefir/MatrixProject.git
    cd MatrixProject
    ```
 
